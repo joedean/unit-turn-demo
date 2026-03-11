@@ -1,0 +1,10 @@
+# To force the use of issue templates, set this to false.
+# This would help improve the quality of the context we provide in our GitHub issues.
+blank_issues_enabled: true
+contact_links:
+  - name: "Create Opportunity with AI Interview"
+    url: https://github.com/copilot
+    about: "Opens Copilot — select joedean/unit-turn-demo repo, then type: /create-issue #prompt:opportunity-creation"
+  - name: "Break Down Opportunity into Stories"
+    url: https://github.com/copilot
+    about: "Opens Copilot — select joedean/unit-turn-demo repo, then type: /create-issue #prompt:story-breakdown"

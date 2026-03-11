@@ -1,0 +1,44 @@
+name: 📚 User Activity
+description: A user journey — the high-level goal a user accomplishes through a sequence of steps. Created as a sub-issue of an Opportunity.
+title: "[USER_ACTIVITY]: "
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: In one sentence, what does the user achieve by completing this activity?
+      placeholder: "The user can [accomplish something meaningful]."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: The specific actions a user takes to complete this activity, in order.
+      placeholder: |
+        1. [Action 1]
+        2. [Action 2]
+        3. [Action 3]
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: How does the team know this activity is fully delivered?
+      placeholder: |
+        - [ ] [Criterion 1]
+        - [ ] [Criterion 2]
+    validations:
+      required: true
+
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of Scope
+      description: What is explicitly excluded from this activity?
+      placeholder: "List anything that might seem related but is intentionally not included."
+    validations:
+      required: false

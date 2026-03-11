@@ -1,0 +1,85 @@
+name: 📚 Opportunity
+description: Ideas that we believe will solve a problem
+title: "[OPPORTUNITY]: "
+body:
+  - type: textarea
+    id: problems
+    attributes:
+      label: Problems
+      description: What problems do you want your solution to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution-ideas
+    attributes:
+      label: Solution Ideas
+      description: List product, feature, or enhancement ideas that solve the problems for your target audience.
+    validations:
+      required: true
+
+  - type: textarea
+    id: users-and-customers
+    attributes:
+      label: Users & Customers
+      description: What types of users and customers have the challenges your solution addresses?
+      placeholder: "Look for differences in user's goals or uses that would affect their use of the product. Separate users and customers into different types based on those differences that makes the difference. It's a bad idea to target 'everyone' with your product"
+    validations:
+      required: true
+
+  - type: textarea
+    id: today-solutions
+    attributes:
+      label: Solutions Today
+      description: How do users address their problems today?
+      placeholder: "List competitive products or workaround approaches your users have for meeting their needs."
+    validations:
+      required: true
+
+  - type: textarea
+    id: business-challenges
+    attributes:
+      label: Business Challenges
+      description: How do the customers' and users' and their challenges above impact your business? If you don't solve these problems for your customers and users, will it hurt your business? How?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution-usage
+    attributes:
+      label: How will users use your solution?
+      description: If your target audience has your solution, what will they do differently as a consequence? And, how will that benefit them?
+    validations:
+      required: true
+
+  - type: textarea
+    id: user-metrics
+    attributes:
+      label: User Metrics
+      description: What specific user behaviors can you measure that will indicate they try, adopt, use, and place value on your solution?
+    validations:
+      required: true
+
+  - type: textarea
+    id: adoption-strategy
+    attributes:
+      label: Adoption Strategy
+      description: How will customers and users discover and adopt your solution?
+    validations:
+      required: true
+
+  - type: textarea
+    id: business-metrics
+    attributes:
+      label: Business benefits and metrics
+      description: What business performance metrics will be affected by the success of this solution? These usually change as consequences of users actually adopting your solution.
+    validations:
+      required: true
+
+  - type: textarea
+    id: budget
+    attributes:
+      label: Budget
+      description: Cost of not doing; Gain or saving if it's implemented; Given that, what would be the budget for this opportunity?'
+    validations:
+      required: true

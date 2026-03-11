@@ -1,0 +1,30 @@
+name: 📚 User Story
+description: A software feature told from the perspective of the user, focusing on who wants the feature, what they want, and why they want it. The real goal of using stories is shared understanding.
+title: "[USER_STORY]: "
+body:
+  - type: input
+    id: who
+    attributes:
+      label: Who?
+      description: Describe the persona that this user story is for.
+      placeholder: "As a [type of user]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What?
+      description: Feature description from the user's perspective.
+      placeholder: "want to [do something]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: Why this feature is needed.
+      placeholder: "So that I can [get some benefits]"
+    validations:
+      required: true
